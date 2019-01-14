@@ -11,7 +11,7 @@ import plugins  # 导入所有命令，虽然后面没有直接用到，但不�
 from command import command_handlers
 
 bot = CQHttp(api_root='http://127.0.0.1:5700')
-
+da =0
 
 # 注册私聊消息处理函数
 @bot.on_message('private')
